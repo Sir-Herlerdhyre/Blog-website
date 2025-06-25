@@ -1,0 +1,29 @@
+{
+  "blogs": [
+    {
+      "id": "227e",
+      "title": "Things Fall Apart ",
+      "body": "Things Fall Apart tells the story of Okonkwo, a proud and ambitious Igbo warrior in the Nigerian village of Umuofia. He rises to prominence through hard work and discipline, determined to distance himself from the legacy of his father, Unoka, who was seen as weak and lazy. The novel explores traditional Igbo society, customs, and religion before the arrival of British colonialists and Christian missionaries. As colonial influence begins to alter the political and spiritual landscape of the village, Okonkwo struggles to maintain his authority and identity in a rapidly changing world. His inflexible nature and adherence to outdated values ultimately lead to his tragic downfall. Achebe uses Okonkwo’s story to explore themes of cultural conflict, masculinity, honor, and the devastating impact of colonialism on African societies.",
+      "author": "Chinua Achebe"
+    },
+    {
+      "id": "8ce4",
+      "title": "Rich Dad Poor Dad",
+      "body": "In Rich Dad Poor Dad, Robert Kiyosaki contrasts the financial philosophies of his two “dads”: his biological father (the \"poor dad\") and his best friend’s father (the \"rich dad\"). The poor dad emphasizes formal education, job security, and conservative financial habits, while the rich dad encourages financial literacy, entrepreneurship, and investing. Through anecdotes and lessons, Kiyosaki illustrates how the rich think differently about money—seeing it as a tool to build wealth rather than something to earn and spend. He discusses the importance of acquiring assets that generate passive income (like real estate, stocks, or businesses) rather than liabilities that drain income. The book critiques traditional schooling for not teaching money management and challenges readers to take responsibility for their financial future. Its core message is that anyone can achieve financial independence through mindset shifts, self-education, and strategic decision-making.",
+      "author": " Robert T. Kiyosaki"
+    },
+    {
+      "id": "47d0",
+      "title": "The richest man in Babylon",
+      "body": "Set in ancient Babylon, this timeless classic offers financial wisdom through a collection of parables centered around a man named Arkad—the richest man in Babylon. Through conversations and lessons, Arkad shares his secrets to building lasting wealth, including saving at least 10% of all earnings, living below one’s means, investing wisely, and avoiding debt. The book emphasizes the value of discipline, patience, and financial foresight. Although its language mimics that of biblical texts, the core principles are practical and universally applicable. By telling simple yet profound stories, Clason provides readers with actionable steps to improve their financial well-being. The message is clear: wealth is not about how much you earn, but how wisely you manage and grow what you have. The parables also stress the importance of seeking knowledge, consulting experts, and maintaining consistency in one’s financial habits.",
+      "author": "George S. Clason"
+    },
+    {
+      "id": "b9f7",
+      "title": "To kill a mockingbird",
+      "body": "Set in the small town of Maycomb, Alabama, during the Great Depression, To Kill a Mockingbird is narrated by Jean Louise “Scout” Finch, a young girl who recounts her childhood experiences and the trial that forever changed her community. Her father, Atticus Finch, is a principled lawyer appointed to defend Tom Robinson, a Black man falsely accused of raping a white woman. As the trial unfolds, Scout and her older brother, Jem, come face-to-face with the deeply rooted racism and injustice in their society. Through their observations and experiences—particularly with Boo Radley, their reclusive neighbor—they begin to understand the complexities of morality, prejudice, and human compassion. Atticus becomes a moral compass, teaching his children about empathy, integrity, and the importance of standing up for what is right, even when it is unpopular or dangerous. The novel highlights the innocence of childhood, the corruption of society, and the slow, often painful journey toward justice. With a mix of warmth, humor, and powerful social critique, Harper Lee crafts a compelling narrative that continues to resonate with readers of all ages.",
+      "author": "Harper Lee"
+    }
+  ]
+}
+
