@@ -3,7 +3,7 @@ import Booklist from './Booklist';
 import useFetch from './useFetch';
 
 const Home = () => {
-    const { data: books, loading, error} = useFetch('http://localhost:8000/blogs')
+    const { data: books, loading, error} = useFetch('https://685d344c769de2bf085fbdb4.mockapi.io/blogs/blogs')
 
 
     return (
