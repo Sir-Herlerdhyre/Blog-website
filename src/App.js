@@ -10,7 +10,7 @@ function App() {
   
 
   return(
-          <BrowserRouter>
+          <BrowserRouter basename="/Blog-website">
 
     <div className='App'>
       <Navbar/>
