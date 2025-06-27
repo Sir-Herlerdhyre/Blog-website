@@ -6,12 +6,16 @@ const BookDetails = () => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-        fetch('http://localhost:8000/blogs/' + blog.id, { method: 'DELETE' })
+        //fetch('http://localhost:8000/blogs/' + blog.id, { method: 'DELETE' })
+        fetch('https://685d344c769de2bf085fbdb4.mockapi.io/blogs/blogs' + blog.id, { method: 'DELETE' })
+        
             .then(() => {
                 navigate('/')
             })
     }
-    const { data: blog, loading, error } = useFetch('http://localhost:8000/blogs/' + id);
+    const { data: blog, loading, error } = useFetch('https://685d344c769de2bf085fbdb4.mockapi.io/blogs/blogs' + id);
+   
+    //http://localhost:8000/blogs/
     return (
         <div className="book-details">
             {loading && <div>Loading....</div>}
