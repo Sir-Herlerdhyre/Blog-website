@@ -17,7 +17,7 @@ const Create = () => {
            // 'http://localhost:8000/blogs' , 
             {
                 method:'POST',
-                headers: {"content-Type": "application/json"},
+                headers: {"Content-Type": "application/json"},
                 body: JSON.stringify(blog)
             }
         ) .then(()=>{
