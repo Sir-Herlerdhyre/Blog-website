@@ -1,45 +1,30 @@
-import './Index.css';
-import Navbar from './Navbar';
-import Homebar from './Homebar';
+import "./Index.css";
+import Navbar from "./Navbar";
+import Homebar from "./Homebar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Create from './Create';
-import BookDetails from './Bookdetails';
-import NotFound from './Error404';
+import Create from "./Create";
+import BookDetails from "./Bookdetails";
+import NotFound from "./Error404";
 
 function App() {
-  
+  return (
+    <BrowserRouter basename="/Blog-website">
+      <div className="App">
+        <Navbar />
 
-  return(
-          <BrowserRouter basename="/Blog-website">
-
-    <div className='App'>
-      <Navbar/>
-      
-      <div className='content'>
-        <Routes>
-          <Route path ="/"element = {<Homebar/>}/>
-          <Route path ="/create"element = {<Create/>}/>
-         <Route path ="/blogs/:id" element = {<BookDetails/>}/>
-         <Route path = "*" element= {<NotFound/>}  />
-         
-         
-
-
-
-
-      
-
-        </Routes>
-        
+        <div className="content">
+          <Routes>
+            <Route path="/" element={<Homebar />} />
+            <Route path="/create" element={<Create />} />
+            <Route path="/blogs/:id" element={<BookDetails />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </div>
       </div>
-
-    </div>
-          </BrowserRouter>
-
+    </BrowserRouter>
   );
 }
 
 export default App;
-
 
 // npx json-server --watch Data/db.json --port 8000
