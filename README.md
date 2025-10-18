@@ -63,12 +63,3 @@ npm start
 
 ## 🔍 Project Review & UX Suggestions
 
-### ✅ What's Great
-
- Use of `useFetch` hook: You've abstracted data fetching logic nicely.
- Clear folder structure: Components are modular and readable.
- User Feedback: `loading...` and error messages improve experience.
- Navigation: Use of `react-router-dom` is spot on.
- Styling: Elegant and simple interface using `Quicksand`.
-
----
